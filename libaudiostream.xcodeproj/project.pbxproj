@@ -668,6 +668,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CEDEF5A61C657B02008F1B97;
@@ -827,19 +828,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/libaudiostream/include",
+					"${PROJECT_DIR}/libaudiostream/liblame",
+					"${PROJECT_DIR}/libaudiostream/libshout",
+					"${PROJECT_DIR}/libaudiostream/libogg",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/include,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/liblame,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libshout,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libogg,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libvorbis,
+					"${PROJECT_DIR}/libaudiostream/libvorbis",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = /Users/user/Desktop/AudioStreaming/MyLib/libaudiosteram/libaudiostream/include;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/libaudiostream/include";
 			};
 			name = Debug;
 		};
@@ -847,19 +849,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/libaudiostream/include",
+					"${PROJECT_DIR}/libaudiostream/liblame",
+					"${PROJECT_DIR}/libaudiostream/libshout",
+					"${PROJECT_DIR}/libaudiostream/libogg",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/include,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/liblame,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libshout,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libogg,
-					/Users/user/Desktop/AudioStreaming/MyLib/libaudiostream/libaudiostream/libvorbis,
+					"${PROJECT_DIR}/libaudiostream/libvorbis",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = /Users/user/Desktop/AudioStreaming/MyLib/libaudiosteram/libaudiostream/include;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/libaudiostream/include";
 			};
 			name = Release;
 		};

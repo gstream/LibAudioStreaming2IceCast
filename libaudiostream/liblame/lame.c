@@ -47,6 +47,8 @@
 #include "VbrTag.h"
 
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 #if defined(__FreeBSD__) && !defined(__alpha__)
 #include <floatingpoint.h>

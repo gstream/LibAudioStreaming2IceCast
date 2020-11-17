@@ -26,7 +26,6 @@
 #  include <config.h>
 #endif
 
-
 #include "lame.h"
 #include "machine.h"
 #include "encoder.h"
@@ -34,7 +33,9 @@
 #include "vbrquantize.h"
 #include "quantize_pvt.h"
 
-
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 
 struct algo_s;
